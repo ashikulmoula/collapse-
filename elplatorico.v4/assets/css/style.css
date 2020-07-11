@@ -1,0 +1,247 @@
+/*------------ Fonts Import ------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap");
+/*--------------------------------------*/
+
+/*===================== Common Typography==============================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+div,
+class,
+id,
+section,
+aside,
+article,
+header,
+footer,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+html,
+body,
+.full-height {
+  height: 100%;
+}
+.fix {
+  overflow: hidden;
+}
+
+body {
+  color: #544b4b;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #f5f5f5 !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  outline: none;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+/*--heading---*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+}
+/*--End heading---*/
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+.section-padding-80 {
+  padding: 80px 0;
+}
+
+/*===================== End Common Typography==============================*/
+body {
+  background-color: #ffffff;
+}
+.heder-top {
+  background: #f37032;
+  padding: 20px;
+  text-align: center;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.resturent-name p {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 25px;
+  color: #9b9b9b;
+  font-family: "Noto Sans", sans-serif;
+}
+.resturent-name p span {
+  display: block;
+  color: #f37032;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+.cart {
+  position: relative;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #36452d;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.cart::before {
+  position: absolute;
+  left: 1%;
+  top: 34px;
+  width: 32%;
+  height: 1px;
+  background: #707070;
+  content: "";
+}
+.cart::after {
+  position: absolute;
+  right: 1%;
+  top: 34px;
+  width: 32%;
+  height: 1px;
+  background: #707070;
+  content: "";
+}
+.cps-style .panel-body {
+  padding: 10px 20px 0px 20px;
+}
+.cps-style .panel-group .panel {
+  border-radius: 0px;
+}
+.cps-style .panel-heading {
+  border-radius: 0px;
+  padding: 0px;
+  color: #ffffff;
+}
+.cps-style h4.panel-title a i.fas {
+  float: right;
+  line-height: 16px;
+  margin-right: -11px;
+}
+.cps-style h4.panel-title a[aria-expanded="false"] i.fas.fa-angle-up {
+  display: none;
+}
+.cps-style h4.panel-title a[aria-expanded="true"] i.fas.fa-angle-down {
+  display: none;
+}
+
+.cps-style h4.panel-title a {
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 25px;
+  font-weight: bold;
+  background: #2b283b;
+  display: block;
+  margin-left: 75px;
+  font-family: "Noto Sans", sans-serif;
+}
+.cps-style .panel-title img {
+  position: absolute;
+  left: 15px;
+  width: 85px;
+  height: 63px;
+}
+.cps-style .panel {
+  border: none;
+}
+.cps-style .panel-group .panel + .panel {
+  margin: 25px 0px;
+}
+.cps-style .panel-body a {
+  border-bottom: 1px solid #707070;
+  display: block;
+}
+.cps-style .iteam-priceing {
+  padding: 12px 0px;
+}
+.cps-style .panel-body a:last-of-type {
+  border: none;
+}
+.panel-body a h6 span {
+  float: right;
+}
+
+.cps-style .panel-body {
+  background: #f2f5f9;
+}
+.cps-style .iteam-priceing h5,
+h6 {
+  color: #737373;
+  font-family: "Noto Sans", sans-serif;
+}
+.cps-style .btn.btn-link {
+  text-decoration: none;
+}
+
+.collapse.in {
+  display: block !important;
+}
+
+.collapse {
+  display: none !important;
+}
+.card {
+  margin-top: 20px;
+}
+.footer h4 a {
+  color: #eee;
+  font-weight: 200;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background: #f37032;
+  text-align: center;
+}
+.footer h4 {
+  padding: 10px;
+}
